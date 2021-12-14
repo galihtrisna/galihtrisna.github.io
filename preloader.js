@@ -1,3 +1,5 @@
-setTimeout(function () {
-  $(".loader_bg").fadeToggle();
-}, 1500);
+$(window).on("load", function () {
+    setTimeout(function () {
+      $(".loader_bg").fadeToggle();
+    }, 0)
+}); 
