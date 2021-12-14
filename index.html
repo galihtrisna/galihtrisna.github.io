@@ -13,6 +13,12 @@
     <link rel="shortcut icon" href="/image/Untitled-1.png" />
   </head>
   <body>
+    <div class="loader_bg">
+      <div class="centered">
+        <div class="blob-1"></div>
+        <div class="blob-2"></div>
+      </div>
+    </div>
     <section class="bg-header">
       <div class="sky">
         <div class="container">
@@ -147,13 +153,16 @@
           <img src="/image/Saly-12.png" class="saly4" alt="" />
         </div>
         <div class="me" id="me">
-          <p class="title9">Doing it with <span style="color: #a1c6ea;" class="title9">passion.</span></p>
+          <p class="title9">
+            Doing it with
+            <span style="color: #a1c6ea" class="title9">passion.</span>
+          </p>
           <p class="title10">
-            My name is Galih Trisna, 16 y.o, born and raised in
-            Indonesia. Since child, i already interested in technology. When i
-            became a student on senior high school, i was getting into the world
-            of programming and since that i learn a lot of
-            programming language from HTML, CSS to PHP.
+            My name is Galih Trisna, 16 y.o, born and raised in Indonesia. Since
+            child, i already interested in technology. When i became a student
+            on senior high school, i was getting into the world of programming
+            and since that i learn a lot of programming language from HTML, CSS
+            to PHP.
           </p>
         </div>
         <div class="acc1">
@@ -162,6 +171,13 @@
         </div>
       </div>
     </section>
+    <section>hjhii</section>
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    setTimeout(function () {
+      $(".loader_bg").fadeToggle();
+    }, 1500);
+  </script>
   <script src="/title.js"></script>
 </html>
